@@ -1,0 +1,221 @@
+/* Management Section */
+.management {
+  padding: 4rem 1.5rem;
+  background: linear-gradient(to bottom, var(--white), var(--gray-50));
+  position: relative;
+  overflow: hidden;
+}
+
+.management::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 10% 20%, rgba(59, 130, 246, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 90% 80%, rgba(30, 64, 175, 0.05) 0%, transparent 50%);
+  opacity: 0.6;
+  z-index: 0;
+}
+
+.management-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.management-title {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.management-title h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--gray-900);
+  letter-spacing: -0.5px;
+  background: linear-gradient(135deg, var(--primary-blue-dark) 0%, var(--primary-blue-light) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.management-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.management-item {
+  display: flex;
+  flex-direction: column;
+  background: var(--white);
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--gray-200);
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+}
+
+.management-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary-blue) 0%, var(--primary-blue-light) 100%);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s ease;
+}
+
+.management-item:hover::before {
+  transform: scaleX(1);
+}
+
+.management-item:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-2xl);
+  border-color: var(--primary-blue-light);
+}
+
+.management-image-wrapper {
+  flex-shrink: 0;
+  width: 180px;
+  height: 180px;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease;
+  margin: 0 auto;
+}
+
+.management-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease, filter 0.3s ease;
+  filter: brightness(0.95) contrast(1.05);
+}
+
+.management-item:hover .management-image {
+  transform: scale(1.1);
+  filter: brightness(1) contrast(1.1) saturate(1.1);
+}
+
+.management-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.management-content h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--gray-900);
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.3px;
+  transition: color 0.3s ease;
+}
+
+.management-item:hover .management-content h3 {
+  color: var(--primary-blue);
+}
+
+.management-role {
+  font-size: 1rem;
+  color: var(--gray-600);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.management-introduction {
+  font-size: 0.95rem;
+  color: var(--gray-600);
+  line-height: 1.7;
+  margin-top: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .management {
+    padding: 3rem 1.5rem;
+  }
+
+  .management-title h2 {
+    font-size: 2rem;
+  }
+
+  .management-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .management-item {
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem;
+    gap: 1.5rem;
+  }
+
+  .management-image-wrapper {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+  }
+
+  .management-content h3 {
+    font-size: 1.25rem;
+  }
+
+  .management-introduction {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+  .management-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .management {
+    padding: 5rem 2.5rem;
+  }
+
+  .management-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+
+  .management-item {
+    padding: 2rem;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .management-image-wrapper {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+  }
+
+  .management-content {
+    align-items: center;
+  }
+}
