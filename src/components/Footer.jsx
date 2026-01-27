@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-section">
-            <h3>S.S. Wagle and Associates (SSWA)</h3>
+            <h3>SS Wagle and Associates (SSWA)</h3>
             <p>
               HR and Manpower Solutions specializing in placement services, training, skill development,
               and employee leasing for leading industries in India and overseas.
@@ -79,7 +79,7 @@ const Footer = () => {
         
         <div className="footer-bottom">
           <div className="footer-bottom-content">
-            <p>&copy; {currentYear} S.S. Wagle and Associates (SSWA). All rights reserved.</p>
+            <p>&copy; {currentYear} SS Wagle and Associates (SSWA). All rights reserved.</p>
             <div className="footer-links">
               <a href="#privacy">Privacy Policy</a>
               <a href="#terms">Terms of Service</a>

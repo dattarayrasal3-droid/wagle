@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './Header.css';
-import logo from '../assets/gem.jpeg';
+import logo from '../assets/lg.png';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -87,11 +87,11 @@ const Header = () => {
           <div className="logo-container">
             <img
               src={logo}
-              alt="S.S. Wagle and Associates (SSWA) Logo"
+              alt="SS Wagle and Associates (SSWA) Logo"
               className="company-logo"
             />
             <div className="logo-text">
-              <h2>S.S. Wagle and Associates (SSWA)</h2>
+              <h2>SS WAGLE AND ASSOCIATES (SSWA)</h2>
               <small>
                 HR & Manpower Solutions – Placement, Training,
                 <br /> Skill Development & Employee Leasing
@@ -125,8 +125,8 @@ const Header = () => {
               INDUSTRIES
             </a>
 
-            <a href="#visa" onClick={() => scrollToSection('visa')}>
-              VISA PROCESS
+            <a href="#client" onClick={() => scrollToClientSection('client')}>
+              OUR CLIENTS
             </a>
 
             <a href="#jobseekers" onClick={() => scrollToSection('jobseekers')}>
@@ -140,7 +140,7 @@ const Header = () => {
 
           {/* Actions */}
           <div className="header-actions">
-            <a href="tel:+919323401206" className="btn btn-primary">
+            <a href="tel:+919323401206" className="btn btn-primary hbtn" >
               Call Now
             </a>
 

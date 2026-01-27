@@ -8,7 +8,7 @@ const Location = () => {
         <div className="section-header">
           <h2 className="section-title">Our Offices</h2>
           <p className="section-subtitle">
-            Visit S.S. Wagle and Associates (SSWA) at our Registered and Corporate Offices in Borivali (E), Mumbai.
+            Visit SS Wagle and Associates (SSWA) at our Registered and Corporate Offices in Borivali (E), Mumbai.
           </p>
         </div>
 
@@ -21,7 +21,7 @@ const Location = () => {
               </div>
               <h3>Registered Office</h3>
               <div className="address-details">
-                <p><strong>S.S. Wagle and Associates (SSWA)</strong></p>
+                <p><strong>SS Wagle and Associates (SSWA)</strong></p>
                 <p>6, Naina, Dattapada Road, Behind SBI,</p>
                 <p>Borivali (E), Mumbai – 400 066, Maharashtra, India</p>
               </div>
@@ -65,7 +65,7 @@ const Location = () => {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="S.S. Wagle and Associates (SSWA) - Office Location"
+              title="SS Wagle and Associates (SSWA) - Office Location"
             ></iframe>
 
             <div className="map-overlay">

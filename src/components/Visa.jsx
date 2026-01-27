@@ -23,7 +23,7 @@ const Visa = () => {
         <div className="visa-content card">
           <div className="visa-points">
             <div>
-              <h3>Visa Process for Oman</h3>
+              <h3>VISA PROCESS FOR OMAN</h3>
             </div>
           </div>
 
@@ -38,7 +38,7 @@ const Visa = () => {
         <div className="visa-content card">
           <div className="visa-points">
             <div>
-              <h3>Visa Process for Kuwait</h3>
+              <h3>VISA PROCESS FOR KUWAIT</h3>
             </div>
           </div>
 
@@ -53,7 +53,7 @@ const Visa = () => {
         <div className="visa-content card">
           <div className="visa-points">
             <div>
-              <h3>Visa Process for UAE</h3>
+              <h3>VISA PROCESS FOR UAE</h3>
             </div>
           </div>
 

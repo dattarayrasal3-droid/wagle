@@ -78,7 +78,7 @@ const Requirements = () => {
         </div>
 
         {/* ====================== SUMMARY SECTION ====================== */}
-        <div className="requirements-summary">
+        {/* <div className="requirements-summary">
           <h3>Summary of Requirements</h3>
           <p>Before proceeding, please ensure you:</p>
 
@@ -92,7 +92,7 @@ const Requirements = () => {
           <p>
             Preparing these items beforehand ensures a smooth and efficient experience.
           </p>
-        </div>
+        </div> */}
 
       </div>
 

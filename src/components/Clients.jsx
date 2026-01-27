@@ -40,7 +40,7 @@ const Clients = () => {
 
           {/* Overseas Client */}
           <div className="client-card">
-            <h2 className="client-heading">Overseas Client</h2>
+            <h2 className="client-heading">Overseas Clients</h2>
             <div className="client-image-wrapper" >
               <img 
                 src={overseasClientImage} 

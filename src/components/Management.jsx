@@ -9,27 +9,27 @@ const Management = () => {
   const teamMembers = [
     { 
       image: i1, 
-      name: 'Shrikant Wagle', 
+      name: 'SHRIKANT WAGLE', 
       role: 'Partner & Founder',
-      introduction: 'Mechanical Engineer with 30+ years of industry experience and over 17 years in placement services, specializing in operations and manpower planning.'
+      introduction: 'Mechanical Engineering graduate with postgraduation in Industrial Engineering, 30+ years of experience in the cable manufacturing industry and 17 years in placement services.'
     },
     { 
       image: i2, 
       name: 'PALLAVI WAGLE RASAL', 
       role: 'Partner',
-      introduction: 'Finance professional with an MBA and 13+ years in banking and placement services, experienced in finance, treasury, and recruitment operations.'
+      introduction: 'Finance professional with an MBA and 13+ years of experience in banking and 12+ years in placement services, experienced in finance, treasury, and recruitment operations. '
     },
     { 
       image: i3, 
       name: 'SHIVADATTA WAGLE', 
       role: 'Consultant',
-      introduction: 'IIM Calcutta postgraduate with 20 years of experience in strategy, marketing, and HR consulting across the tourism sector.'
+      introduction: '33 years of experience in strategy, marketing, and HR consulting across multiple industries, with a strong focus on organizational growth, talent development, and business transformation.'
     },
     { 
       image: i4, 
       name: 'DATTATRAY RASAL', 
       role: 'Consultant',
-      introduction: 'HR operations consultant with 10+ years of leadership experience in recruitment, process automation, and operational risk management.'
+      introduction: 'Over 3 decades of Capital Market  Operations experience which includes 15+ years of leadership experience and expertise in recruitment, process automation, and operational risk management.'
     }
   ];
 

@@ -18,12 +18,12 @@ function App() {
       <Header />
       <Hero />
       <About />
+      <Management />
       <Services />
-      <Requirements /> {/* ✅ Added Requirements section */}
+      <Requirements />
       <Clients />
       <Visa />
       <Location />
-      <Management />
       <Contact />
       <Footer />
     </div>

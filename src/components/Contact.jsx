@@ -28,7 +28,7 @@ const Contact = () => {
     <section id="contact" className="section contact">
       <div className="container">
         <div className="section-header">
-          <h2 className="section-title">Contact S.S. Wagle and Associates (SSWA)</h2>
+          <h2 className="section-title">Contact SS Wagle and Associates (SSWA)</h2>
           <p className="section-subtitle">
             Reach out for HR and manpower solutions, placement services, training, and employee leasing support.
           </p>
@@ -155,7 +155,7 @@ const Contact = () => {
             <h3>Partner with SSWA for HR &amp; Manpower Solutions</h3>
             <p>
               Whether you are an organization looking for the right talent or a professional seeking career
-              opportunities, S.S. Wagle and Associates (SSWA) is here to support you.
+              opportunities, SS Wagle and Associates (SSWA) is here to support you.
             </p>
             <div className="cta-buttons">
               <a href="tel:+919323401206" className="btn btn-primary btn-large">

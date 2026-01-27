@@ -6,17 +6,34 @@ const About = () => {
     <section id="about" className="section about">
       <div className="container">
         <div className="section-header">
-          <h2 className="section-title">About S.S. Wagle and Associates (SSWA)</h2>
+          <h2 className="section-title">About SS Wagle and Associates (SSWA)</h2>
           <p className="section-subtitle">
             Specialized HR &amp; Manpower Solutions – Placement Services, Training, Skill Development &amp; Employee Leasing
           </p>
+        </div>
+
+        <div className="about-grid narrow">
+          <div className="about-card card" style={{ 
+            backgroundImage: "linear-gradient(135deg, #0b2858ff 0%, #2d59d4ff 100%)",
+            }}>
+
+            <h3 style={{color:"white"}}>Mission</h3>
+            <p style={{color:"white"}}>
+To provide employment and career growth opportunities through professional placement, training, skill development, and manpower solutions for Indian nationals in India and abroad across key industrial sectors.  </p>          </div>
+          <div className="about-card card" style={{ 
+            backgroundImage: "linear-gradient(135deg, #0b2858ff 0%, #2d59d4ff 100%)",
+            }}>
+            <h3 style={{color:"white"}}>Vision</h3>
+            <p style={{color:"white"}}>
+To emerge as a leading global placement organization known for excellence in recruitment, training, and manpower services across industries and international markets.            </p>
+          </div>
         </div>
 
         <div className="about-grid">
           <div className="about-card card">
             <h3>Corporate Profile</h3>
             <p>
-              Founded in 2007, S.S. Wagle and Associates began as a proprietary firm established by Shri Shrikant S. Wagle,
+              Founded in 2007, SS Wagle and Associates began as a proprietary firm established by Mr. Shrikant S. Wagle,
               a seasoned engineering professional with over 30 years of experience in manufacturing, planning, and industrial
               engineering in the cable industry, along with more than 17 years of experience in placement services.
               In 2014, the firm transitioned into a partnership to support expanded operations.
@@ -53,7 +70,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="about-grid narrow">
+        {/* <div className="about-grid narrow">
           <div className="about-card card">
             <h3>Mission</h3>
             <p>
@@ -66,7 +83,7 @@ const About = () => {
               To become a Global Leader in placement services.
             </p>
           </div>
-        </div>
+        </div> */}
 
         <div className="about-grid">
           <div className="about-card card">
@@ -95,7 +112,7 @@ const About = () => {
         <div className="about-cta card">
           <h3>Share Your Profile with SSWA</h3>
           <p>
-            Job seekers and professionals can share their resumes with S.S. Wagle and Associates (SSWA)
+            Job seekers and professionals can share their resumes with SS Wagle and Associates (SSWA)
             for suitable career opportunities in India and overseas.
           </p>
           <div className="cta-actions">
