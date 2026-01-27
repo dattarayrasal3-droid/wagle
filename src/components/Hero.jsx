@@ -17,8 +17,8 @@ const Hero = () => {
             </h1>
             <p className="hero-subtitle">
               SS Wagle and Associates (SSWA) specializes in placement services, training, skill development,
-              and employee leasing for sectors such as cable manufacturing, pharmaceuticals, engineering, cement,
-              chemicals, and automobiles.
+              and employee leasing for sectors such as cable manufacturing, pharmaceuticals, engineering, cement and
+              chemicals.
             </p>
             <div className="hero-actions">
               <a href="#jobseekers" className="btn btn-primary btn-large">

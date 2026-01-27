@@ -41,7 +41,7 @@ To emerge as a leading global placement organization known for excellence in rec
             <p>
               The company specializes in HR and Manpower Solutions including placement services, training, skill development,
               and employee leasing. These services help clients improve productivity, reduce training time, and lower operational
-              costs across industries such as cable manufacturing, pharmaceuticals, engineering, cement, chemicals, and automobiles.
+              costs across industries such as cable manufacturing, pharmaceuticals, engineering, cement, and chemicals.
             </p>
           </div>
 
