@@ -211,6 +211,10 @@
     grid-template-columns: 1fr;
     gap: 2rem;
   }
+  .coco{
+    width: 100%;
+    margin-left: -0%;
+  }
 
   .maps{
     display: flex;
@@ -257,3 +261,4 @@
     max-width: 200px;
   }
 }
+

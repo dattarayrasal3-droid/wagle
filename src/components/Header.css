@@ -1,3 +1,4 @@
+/* this is the css for header */
 /* ====== HEADER ====== */
 .header {
   position: fixed;
@@ -407,3 +408,5 @@
 .header.force-mobile .header-actions .btn {
   display: none;
 }
+
+/* the problem is hamburger in the smaet phone is looking at very edge of the screen i want some right margin  */
