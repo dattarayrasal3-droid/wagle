@@ -5,6 +5,7 @@ const Hero = () => {
   return (
     <section id="home" className="hero">
       <div className="hero-background">
+        
         <div className="hero-overlay"></div>
       </div>
       
@@ -15,10 +16,9 @@ const Hero = () => {
               HR &amp; Manpower Solutions
               <span className="highlight"> for Industry Leaders</span>
             </h1>
-            <p className="hero-subtitle">
+            <p className="hero-subtitle">    
               SS WAGLE AND ASSOCIATES (SSWA) specializes in placement services, training, skill development,
-              and employee leasing for sectors such as cable manufacturing, pharmaceuticals, engineering, cement and
-              chemicals.
+              and employee leasing for sectors such as cable manufacturing, pharmaceuticals, engineering, cement, chemicals and automobiles.
             </p>
             <div className="hero-actions">
               <a href="#jobseekers" className="btn btn-primary btn-large">
@@ -41,7 +41,7 @@ const Hero = () => {
             </div>
             <div className="stat-item">
               <h3>Multi-Sector</h3>
-              <p>Cables, Pharma, Engineering, Cement and Chemicals</p>
+              <p>Cables, Pharma, Engineering, Cement, Chemicals and Automobiles</p>
             </div>
           </div>
         </div>

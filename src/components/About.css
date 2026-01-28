@@ -140,6 +140,20 @@
   font-weight: bold;
 }
 
+.about-cta .cta-actions .btn {
+  width: 100%;
+  max-width: 420px;        /* prevents over-expansion */
+  text-align: center;
+  white-space: normal;     /* allow wrapping */
+  word-break: break-word;  /* break long email */
+  line-height: 1.4;
+  padding: 0.9rem 1.25rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 .about-cta {
   text-align: center;
   margin-top: 3rem;
@@ -174,7 +188,17 @@
   margin-top: 1.5rem;
 }
 
+@media (max-width: 480px) {
+  .about-cta .cta-actions .btn {
+    font-size: 0.95rem;
+    max-width: 100%;
+  }
+}
+
+
 @media (max-width: 768px) {
+
+  
   .about-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
@@ -204,13 +228,17 @@
     font-size: 1.5rem;
   }
 
+
   .about-cta .cta-actions {
+    display: grid;
     grid-template-columns: 1fr;
-    justify-items: stretch;
+    justify-items: center;
   }
 
   .about-cta .cta-actions .btn {
     width: 100%;
     max-width: 300px;
   }
+
+
 }

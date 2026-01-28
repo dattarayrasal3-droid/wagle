@@ -65,10 +65,10 @@ const Footer = () => {
               <p><strong>📍 Corporate Office:</strong></p>
               <p>
                 A001/A, Shanti Dwar, Shantivan,
-                Near National Park, Borivali (E), Mumbai – 400 066
+                Near National Park, Borivali (E), Mumbai – 400 066,  Maharashtra, India
               </p>
               <p><strong>📞 Mobile:</strong></p>
-              <p>09323401206</p>
+              <p>+91 9323401206</p>
               <p><strong>📧 Email:</strong></p>
               <p>sswagleassociates@gmail.com</p>
               <p><strong>🌐 Website:</strong></p>

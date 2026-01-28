@@ -33,7 +33,7 @@ To emerge as a leading global placement organization known for excellence in rec
           <div className="about-card card">
             <h3>Corporate Profile</h3>
             <p>
-              Founded in 2007, SS WAGLE AND ASSOCIATES began as a proprietary firm established by Mr. Shrikant S. Wagle,
+              Founded in 2007, SS WAGLE AND ASSOCIATES began as a proprietary firm established by Mr. Shrikant Wagle,
               a seasoned engineering professional with over 30 years of experience in manufacturing, planning, and industrial
               engineering in the cable industry, along with more than 17 years of experience in placement services.
               In 2014, the firm transitioned into a partnership to support expanded operations.

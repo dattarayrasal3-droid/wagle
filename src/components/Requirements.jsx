@@ -37,7 +37,7 @@ const Requirements = () => {
             >
               <img src={photo1} alt="Requirement 1" className="requirement-image" />
             </button>
-            <h3>Candidate form filling</h3>
+            <h3>Candidate Form Filling</h3>
             <p>
             Ensuring accurate information and smooth recruitment for overseas and domestic manpower requirements.
             </p>

@@ -8,7 +8,7 @@ const Location = () => {
         <div className="section-header">
           <h2 className="section-title">Our Offices</h2>
           <p className="section-subtitle">
-            Visit SS WAGLE AND ASSOCIATES (SSWA) at our Registered and Corporate Offices in Borivali (E), Mumbai.
+            Visit SS WAGLE AND ASSOCIATES (SSWA) at our Registered and Corporate Offices in Borivali (E), Mumbai – 400 066, Maharashtra, India
           </p>
         </div>
 
@@ -41,22 +41,6 @@ const Location = () => {
                   <p>A001/A, Shanti Dwar, Shantivan,</p>
                   <p>Near National Park, Borivali (E),</p>
                   <p>Mumbai – 400 066, Maharashtra, India</p>
-                </div>
-              </div>
-
-              <br />
-
-        
-              <div className="location-card coco">
-                <div className="location-icon">
-                  <span>🌍</span>
-                </div>
-                <h3>Why SSWA?</h3>
-                <div className="location-benefits">
-                  <p>• 30+ years of experience in manufacturing, planning, and industrial engineering</p>
-                  <p>• 17+ years of experience in HR and placement services</p>
-                  <p>• Strong focus on cable manufacturing, pharmaceuticals, engineering, cement, chemicals, and automobiles</p>
-                  <p>• Process-driven approach to improve productivity and reduce training time</p>
                 </div>
               </div>
             </div>
@@ -190,6 +174,24 @@ const Location = () => {
               </div>
 
             </div>
+
+            <br />
+            <br />
+
+            <div className="location-card coco" style={{ 
+            backgroundImage: "linear-gradient(135deg, #0b2858ff 0%, #2d59d4ff 100%)",
+            }}>
+                <div className="location-icon">
+                  <span>🌍</span>
+                </div>
+                <h3 style={{color:"white"}}>Why SSWA?</h3>
+                <div className="location-benefits" style={{color:"white"}}>
+                  <p style={{color:"white"}}>• 30+ years of experience in manufacturing, planning, and industrial engineering</p>
+                  <p style={{color:"white"}}>• 17+ years of experience in HR and placement services</p>
+                  <p style={{color:"white"}}>• Strong focus on cable manufacturing, pharmaceuticals, engineering, cement, chemicals, and automobiles</p>
+                  <p style={{color:"white"}}>• Process-driven approach to improve productivity and reduce training time</p>
+                </div>
+              </div>
 
           {/* </div> */}
         {/* </div> */}
