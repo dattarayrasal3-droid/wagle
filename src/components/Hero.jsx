@@ -16,7 +16,7 @@ const Hero = () => {
               <span className="highlight"> for Industry Leaders</span>
             </h1>
             <p className="hero-subtitle">
-              SS Wagle and Associates (SSWA) specializes in placement services, training, skill development,
+              SS WAGLE AND ASSOCIATES (SSWA) specializes in placement services, training, skill development,
               and employee leasing for sectors such as cable manufacturing, pharmaceuticals, engineering, cement and
               chemicals.
             </p>
@@ -41,7 +41,7 @@ const Hero = () => {
             </div>
             <div className="stat-item">
               <h3>Multi-Sector</h3>
-              <p>Cables, Pharma, Engineering, Cement and chemicals</p>
+              <p>Cables, Pharma, Engineering, Cement and Chemicals</p>
             </div>
           </div>
         </div>

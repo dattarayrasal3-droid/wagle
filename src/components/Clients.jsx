@@ -2,8 +2,8 @@ import React from 'react';
 import './Clients.css';
 
 // Placeholder images - replace with actual client images
-import indianClientImage from '../assets/ind.jpeg'; // You can replace this with actual Indian clients image
-import overseasClientImage from '../assets/os.jpeg'; // You can replace this with actual overseas clients image
+import indianClientImage from '../assets/ind.png'; // You can replace this with actual Indian clients image
+import overseasClientImage from '../assets/os.png'; // You can replace this with actual overseas clients image
 
 const Clients = () => {
   return (

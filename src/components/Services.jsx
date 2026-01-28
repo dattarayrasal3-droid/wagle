@@ -55,6 +55,10 @@ import pcs from '../assets/pcs.jpg';
 import allu from '../assets/allu.jpg';
 import optic from '../assets/optic.jpg';
 
+import pcs1 from '../assets/pcs1.png';
+import allu1 from '../assets/allu1.png';
+import optic1 from '../assets/optic1.png';
+
 const Services = () => {
   const services = [
     {
@@ -72,6 +76,26 @@ const Services = () => {
       title: 'Fibre Optic Cables',
       description: 'Specialized manpower support for fibre optic cable manufacturing and operations.'
     }
+
+  ];
+
+  const services2 = [
+    {
+      image: pcs1,
+      title: 'Cement',
+      description: 'Skilled manpower solutions for power cable manufacturing and related industries.'
+    },
+    {
+      image: allu1,
+      title: 'Pharmaceutical',
+      description: 'Expert workforce for aluminium processing plants and allied manufacturing units.'
+    },
+    {
+      image: optic1,
+      title: 'Automobile',
+      description: 'Specialized manpower support for fibre optic cable manufacturing and operations.'
+    }
+
   ];
 
   return (
@@ -87,6 +111,22 @@ const Services = () => {
 
         <div className="services-grid">
           {services.map((service, index) => (
+            <div key={index} className="service-card">
+              <img
+                src={service.image}
+                alt={service.title}
+                className="service-image"
+                loading="lazy"
+              />
+              <div className="overlay">
+                <h3 className="service-title">{service.title}</h3>
+              </div>
+            </div>
+          ))}
+        </div>
+        <br />
+        <div className="services-grid">
+        {services2.map((service, index) => (
             <div key={index} className="service-card">
               <img
                 src={service.image}

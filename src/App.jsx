@@ -20,8 +20,8 @@ function App() {
       <About />
       <Management />
       <Services />
-      <Requirements />
       <Clients />
+      <Requirements />
       <Visa />
       <Location />
       <Contact />

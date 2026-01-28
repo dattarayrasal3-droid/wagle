@@ -78,21 +78,20 @@ const Requirements = () => {
         </div>
 
         {/* ====================== SUMMARY SECTION ====================== */}
-        {/* <div className="requirements-summary">
-          <h3>Summary of Requirements</h3>
-          <p>Before proceeding, please ensure you:</p>
-
-          <ul>
-            <li>Meet the minimum eligibility criteria.</li>
-            <li>Have valid identification and supporting documents.</li>
-            <li>Provide correct contact information for communication.</li>
-            <li>Understand the process, timeline, and any applicable requirements.</li>
-          </ul>
-
-          <p>
-            Preparing these items beforehand ensures a smooth and efficient experience.
-          </p>
-        </div> */}
+        <div className="requirements-summary">
+          <h3>Recruitment Process</h3>
+          <p>Our recruitment process is driven by strong referrals and an extensive 
+            candidate network across India and the Gulf, supported by a large databank
+             that enables near-zero sourcing time. Candidates are thoroughly screened 
+             through personal interviews before being presented to clients, with 
+             interviews conducted in person, via video, or teleconference. We manage 
+             offer acceptance, medical testing, and onboarding efficiently, typically 
+             within 6–8 weeks. With deep understanding of manufacturing roles and job 
+             requirements, we align candidates closely with client expectations, ensure 
+             long-term commitment, and achieve a selection success rate of over 70%. 
+             Our operations are technology-driven, using advanced business process 
+             tools for effective recruitment.</p>
+        </div>
 
       </div>
 

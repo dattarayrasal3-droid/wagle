@@ -87,7 +87,7 @@ const Header = () => {
           <div className="logo-container">
             <img
               src={logo}
-              alt="SS Wagle and Associates (SSWA) Logo"
+              alt="SS WAGLE AND ASSOCIATES (SSWA) Logo"
               className="company-logo"
             />
             <div className="logo-text">

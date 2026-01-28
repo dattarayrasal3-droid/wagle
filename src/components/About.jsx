@@ -6,7 +6,7 @@ const About = () => {
     <section id="about" className="section about">
       <div className="container">
         <div className="section-header">
-          <h2 className="section-title">About SS Wagle and Associates (SSWA)</h2>
+          <h2 className="section-title">About SS WAGLE AND ASSOCIATES (SSWA)</h2>
           <p className="section-subtitle">
             Specialized HR &amp; Manpower Solutions – Placement Services, Training, Skill Development &amp; Employee Leasing
           </p>
@@ -33,7 +33,7 @@ To emerge as a leading global placement organization known for excellence in rec
           <div className="about-card card">
             <h3>Corporate Profile</h3>
             <p>
-              Founded in 2007, SS Wagle and Associates began as a proprietary firm established by Mr. Shrikant S. Wagle,
+              Founded in 2007, SS WAGLE AND ASSOCIATES began as a proprietary firm established by Mr. Shrikant S. Wagle,
               a seasoned engineering professional with over 30 years of experience in manufacturing, planning, and industrial
               engineering in the cable industry, along with more than 17 years of experience in placement services.
               In 2014, the firm transitioned into a partnership to support expanded operations.
@@ -112,7 +112,7 @@ To emerge as a leading global placement organization known for excellence in rec
         <div className="about-cta card">
           <h3>Share Your Profile with SSWA</h3>
           <p>
-            Job seekers and professionals can share their resumes with SS Wagle and Associates (SSWA)
+            Job seekers and professionals can share their resumes with SS WAGLE AND ASSOCIATES (SSWA)
             for suitable career opportunities in India and overseas.
           </p>
           <div className="cta-actions">
@@ -122,14 +122,14 @@ To emerge as a leading global placement organization known for excellence in rec
             >
               Email: sswagleassociates@gmail.com
             </a>
-            <a
+            {/* <a
               href="https://www.sswagleassociates.com"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary"
             >
               Visit: www.sswagleassociates.com
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
