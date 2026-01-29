@@ -11,7 +11,7 @@ const Management = () => {
       image: i1, 
       name: 'SHRIKANT WAGLE', 
       role: 'Partner & Founder',
-      introduction: 'Mechanical Engineering graduate with postgraduation in Industrial Engineering, 30+ years of experience in the cable manufacturing industry and 17 years in placement services.'
+      introduction: 'Mechanical Engineering graduate with post-graduation in Industrial Engineering, 30+ years of experience in the cable manufacturing industry and 17 years in placement services.'
     },
     { 
       image: i2, 

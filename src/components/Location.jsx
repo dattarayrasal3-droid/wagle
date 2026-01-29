@@ -148,7 +148,7 @@ const Location = () => {
 
                 <div className="map-overlay">
                   <div className="map-content">
-                    <h4>📍 Rigestered office, Borivali (E), Mumbai – 400 066</h4>
+                    <h4>📍 Registered office, Borivali (E), Mumbai – 400 066</h4>
                     <p>
                       SSWA operates from Borivali (East), Mumbai, strategically located with convenient access
                       for clients and candidates across the city and beyond.

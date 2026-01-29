@@ -14,7 +14,7 @@ const Clients = () => {
           justifyContent:"center",
           alignItems:"center",
 
-        }}> Our clients </h1>
+        }}> Our Clients </h1>
         <br>
         </br>
         <br></br>
