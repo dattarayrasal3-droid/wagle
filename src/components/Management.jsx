@@ -23,7 +23,7 @@ const Management = () => {
       image: i3, 
       name: 'SHIVADATTA WAGLE', 
       role: 'Consultant',
-      introduction: '33 years of experience in strategy, marketing, and HR consulting across multiple industries, with a strong focus on organizational growth, talent development, and business transformation.'
+      introduction: 'IIM PGDBA (Marketing) with 33 years of experience in strategy, marketing, and HR consulting across diverse industries, specializing in organizational growth, talent development, and business transformation.'
     },
     { 
       image: i4, 
